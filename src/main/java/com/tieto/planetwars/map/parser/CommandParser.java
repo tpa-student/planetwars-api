@@ -17,6 +17,9 @@ public class CommandParser {
 	}
 
 	public Command parseCommand(String command) {
+		if(planets == null) 
+			return null;
+		
 		if (command.isEmpty())
 			return null;
 		
