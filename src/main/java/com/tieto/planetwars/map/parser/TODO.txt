@@ -2,4 +2,4 @@
 .FleetParser
 .PlanetParser
 
-zmiana
+zmiany
