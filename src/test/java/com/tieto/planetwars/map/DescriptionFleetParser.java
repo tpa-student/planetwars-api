@@ -6,6 +6,9 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,6 +16,7 @@ import com.tieto.planetwars.map.parser.FleetParser;
 import com.tieto.planetwars.map.parser.NotEnoughArgumentsInFleetParserString;
 import com.tieto.planetwars.map.parser.TooManyArgumentsInFleetParserString;
 import com.tieto.planetwars.world.Fleet;
+import com.tieto.planetwars.world.Planet;
 import com.tieto.planetwars.world.WarsMap;
 
 public class DescriptionFleetParser {
@@ -22,6 +26,12 @@ public class DescriptionFleetParser {
 	
 	@Before
 	public void init() {
+		
+//		List<Planet> planetList = new ArrayList<Planet>();
+//		List<Fleet> fleetList = new ArrayList<Fleet>();
+
+		
+		
 		warsMap = new WarsMap(null, null);
 		parser = new FleetParser(warsMap);
 	}

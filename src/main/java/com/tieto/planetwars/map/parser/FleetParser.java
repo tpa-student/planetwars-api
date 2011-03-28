@@ -1,6 +1,7 @@
 package com.tieto.planetwars.map.parser;
 
 import com.tieto.planetwars.player.Player;
+import com.tieto.planetwars.world.Coordinates;
 import com.tieto.planetwars.world.Fleet;
 import com.tieto.planetwars.world.Planet;
 import com.tieto.planetwars.world.WarsMap;
